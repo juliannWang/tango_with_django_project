@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Rango</title>
+    </head>
+
+    <body>
+        <h1>here is the about page.</h1>
+        <div>
+            hey there partner! <br />
+            <strong>{{ message }}</strong><br />
+        </div>
+        <div>
+            <a href="/rango/">return</a><br />
+            <img src="{{ MEDIA_URL }}cat.jpeg" alt="Picture of a Cat."/>
+        </div>
+    </body>
+
+</html>
